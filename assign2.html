@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Assignemnt 2</title>
+</head>
+<body>
+    <table border="1px" rules="none" height="500px" width="45%">
+        <form name="myform" method="get" width="100%">
+            <tr height="50px">
+                <td colspan="2"><center>Please fill out the form completely</center></td>
+            </tr>
+            <tr height="200px">
+                <td colspan="2" bgcolor="yellow">
+                    <fieldset>
+                        <legend>Personal Information</legend>
+                        First Name: 
+                        <input type="text" name="fn" autofocus><br><br>
+                        Last Name:
+                        <input type="text" name="ln" size="34px"><br><br>
+                        Street:
+                        <input type="text" name="str" size="30px"><br><br>
+                        City:
+                        <input type="text" name="city" size="28px"><br><br>
+                        State:
+                        <select name="state">
+                            <option disabled selected>--</option>
+                            <option>Haryana</option>
+                            <option>Delhi</option>
+                            <option>Punjab</option>
+                            <option>Jammu&kashmir</option>
+                        </select> &nbsp;&nbsp;&nbsp;
+                        Zip:
+                        <input type="file" name="f">        
+                    </fieldset>
+                </td>
+            </tr>
+            <br><br>
+            <tr heigh="200px">
+                <td colspan="2" bgcolor="yellow">
+                    <fieldset>
+                        <legend>Other Form Elements</legend>
+                        Do you have a pet dog?
+                        <input type="radio" name="pet">Yes
+                        <input type="radio" name="pet">No
+                        <br><br>
+                        If yes how many?
+                        <input type="radio" name="many">One
+                        <input type="radio" name="many">Two
+                        <input type="radio" name="many">More than Two
+                        <br><br>
+                        What breed of dog have you had as a pet? (Check all that apply)
+                        <br>
+                        <input type="checkbox" name="breed">Bulldog
+                        <input type="checkbox" name="breed">Basset Hound
+                        <input type="checkbox" name="breed">Golden Retriever
+                        <br><br>
+                        Tell us about your Favorite dog: <br>
+                        <textarea name="about" cols="50" rows="10"></textarea>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr height="50px">
+                <td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="submit"  name="sub" value="Send Info">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="reset" name="clear" value="Clear Info">
+                </td>
+            </tr>
+        </form>
+    </table>
+    
+</body>
+</html>
